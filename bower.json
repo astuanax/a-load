@@ -1,0 +1,27 @@
+{
+  "name": "a-load",
+  "version": "0.0.0",
+  "homepage": "https://github.com/astuanax/a-load",
+  "authors": [
+    "Astuanax <len@astuanax.com>"
+  ],
+  "dependencies" : {
+      "jquery" : "latest"
+  }
+  "description": "Simple lazy loading library",
+  "main": "src/a-load.js",
+  "moduleType": [],
+  "keywords": [
+    "javascript",
+    "lazyload",
+    "stylesheets"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
