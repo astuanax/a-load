@@ -4,16 +4,18 @@
 		<script src="assets/javascripts/a-load.js"></script>
 	</head>
 	<body>
+		<!-- Load a stylesheet -->
 		<script>a.mng.registerCSS("style","style.css")</script>
 		<p>If this page has a RED backgorund, and white text, things are fine</p>
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
+		<!-- Load a javascript file -->
 		<script>a.mng.registerPlugin("main","main.js")</script>
 		<p id="javascripterror" style="color:yellow; background:black; border:5px solid green">THIS PARAGRAPH SHOULD NOT BE VISIBLE</p>
 		
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 		<script type="text/javascript">(window.jQuery)||document.write('<script type="text/javascript" src="/scripts/jquery.min.js"><\/script>');</script>
-
+		<!-- Gather all stylesheets and script, then load everything async -->
 		<script>a.init()</script>
 	</body>
 </html>
